@@ -1,2 +1,2 @@
 #!/bin/bash
-chown --from=root:school
+chgrp --from=root:school
