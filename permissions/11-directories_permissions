@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -F +x permissions
+chmod +x permissions
