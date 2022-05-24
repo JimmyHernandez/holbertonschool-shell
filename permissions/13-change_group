@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp --from=root:school
+chgrp --from=root:school hello
