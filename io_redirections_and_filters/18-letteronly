@@ -1,2 +1,2 @@
 #!/bin/bash
-sort [:alpha:] /etc/ssh/sshd_config
+sort *[a-zA-z] /etc/ssh/sshd_config
