@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq -i *[:alphan:]
+sort -f /etc/ssh/sshd_config
