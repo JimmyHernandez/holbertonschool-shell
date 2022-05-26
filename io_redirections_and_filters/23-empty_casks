@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laR | cut -d ':' -f 9 
+ls -laR | cut -d ':' -f 8 
