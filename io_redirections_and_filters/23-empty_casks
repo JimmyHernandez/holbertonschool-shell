@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laR | cut -d ':' -f 8 
+find . -empty | rev | cut -d '/' -f 1 | rev 
