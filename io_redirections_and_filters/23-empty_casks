@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type -df -empty 
+ls -laR | cut -d ':' -f 9 
