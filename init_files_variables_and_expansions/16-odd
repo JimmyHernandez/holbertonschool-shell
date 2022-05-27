@@ -1,2 +1,2 @@
 #!/bin/bash
-grep {1,3,5}
+paste -- | cut -f1
