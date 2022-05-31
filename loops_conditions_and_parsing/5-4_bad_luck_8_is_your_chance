@@ -5,11 +5,15 @@ i=0
 while [ $i -le 9 ]
 do	
 	
+<<<<<<< HEAD
   if [ $i -eq 4 ]
+=======
+  if [ $i -eq 3 ]
+>>>>>>> fe99a6042cceb2425007e50891fd8a0d8206e5e1
   then
 	echo "bad luck"
 
-  elif [ $i -eq 8 ]
+  elif [ $i -eq 7 ]
   then	
 	echo "good luck"
   else 
