@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# until loop
+
+i=0
+
+until [ ! $i -le 9 ]
+do
+
+echo "Best School"
+	i=$(( i + 1 ))
+done
