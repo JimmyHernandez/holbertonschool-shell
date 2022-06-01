@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#this is a clock
+
+h=0
+m=1
+while [ "$h" -lt 13 ]
+do
+	echo "Hour: $h"
+	while [ "$m" -lt 60 ]
+	do
+		echo "$m"
+		((m+=1))
+	done
+	((m=1))
+	((h+=1))
+done
+
