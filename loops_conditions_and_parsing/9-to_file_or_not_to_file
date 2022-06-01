@@ -5,19 +5,23 @@ file="school"
 
 if [ -e $file ] #True if file Exists.
 then
- echo "$file file exists"
+echo "$file file exists"
 
- if [ -s $file ]#True if file has a Size greater than zero. 
+fi
+
+if [ -s $file ] #True if file has a Size greater than zero. 
  then
  echo "$file file is not empty"
  else
  echo "$file file is empty"
-  fi
+fi
 
-    if [ -f $file ]#True if file is a regular File. 
-    then
-	echo "$file is a regular file"
-    fi
+if [ -f $file ] #True if file is a regular File. 
+
+then
+ echo "$file is a regular file"
+  
 else
     echo "$file file does not exist"
 fi
+ 
