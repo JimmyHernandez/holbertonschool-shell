@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#this is a ways of spliting word
+
+while IFS= read -r line
+	
+do
+	echo "$line" | cut -f 1,2,6 -d ':'
+done < "/etc/passwd"
