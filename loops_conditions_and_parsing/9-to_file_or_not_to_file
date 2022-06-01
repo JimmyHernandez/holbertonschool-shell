@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # if nested
 
-file=":school"
+file="school"
 if [ -e $file ]
 then
     echo "$file file exists"
