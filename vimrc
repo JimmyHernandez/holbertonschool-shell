@@ -56,3 +56,12 @@ autocmd GUIEnter * set vb t_vb= " for your GUI
 autocmd VimEnter * set vb t_vb=
 
 set pastetoggle=<F8>
+/******************************************************************************************************************************************************/
+First create the following directory structure in your home director wit he next command:
+    mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged
+Then create an empty file with the name .vimrc:
+    touch ~/.vimrc
+In the file .vimrc copy and paste the code above, from line 1 to line 58.
+    
+ 
+
