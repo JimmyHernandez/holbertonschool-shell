@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-#Indefinitely writes "I am alive!" to the file "/tmp/my_process" with 2 second pauses in between.
-while true 
-do 
-	sudo bash -c 'echo "I am alive!" >> /tmp/my_process' 
-	sleep 2 
+# Writes a message to the file 11
+while true
+do
+     sudo bash -c 'echo "I am alive!" >> /tmp/my_process'
+     sleep 2
 done
