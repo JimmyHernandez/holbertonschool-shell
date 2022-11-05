@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Writes a message to the file 11
+#Writes a message to the file 11
 while true
 do
      sudo bash -c 'echo "I am alive!" >> /tmp/my_process'
